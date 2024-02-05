@@ -53,6 +53,35 @@
 	margin-top: 1rem;
 }
 
+.reset {
+	padding: 15px 15px;
+	color: #000000;
+	background-color: silver;
+	background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+		linear-gradient(155deg, #d00 23px, transparent 23px),
+		linear-gradient(335deg, #b00 23px, transparent 23px),
+		linear-gradient(155deg, #d00 23px, transparent 23px);
+	background-size: 58px 58px;
+	background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+	border: 0 2px 2px 0 solid #000;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 1px rgb(110, 4, 4);
+	text-shadow: 2px 2px purple;
+	font-size: 1em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 600;
+	text-emphasis-color: #ec38bc;
+	margin: 15px auto;
+	perspective: 3d;
+}
+
+.reset:focus {
+	color: #ec38bc;
+	background-color: #262809;
+}
+
 @keyframes fadein {
 	from {
 		opacity: 0;
